@@ -4,16 +4,8 @@ import { Typography } from '@creditas-ui/typography';
 import { media } from '@creditas-ui/utilities';
 
 const Image = styled.img`
-  margin-bottom: 64px;
-
-  ${media.up('5xl')} {
-    margin-bottom: 56px;
-    max-height: 154px;
-  }
-
-  ${media.up('8xl')} {
-    max-height: 100%;
-  }
+  margin-bottom: 56px;
+  height: 300px;
 `;
 
 const Title = styled(Typography)`
